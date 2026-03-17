@@ -110,5 +110,6 @@ plc.addEventListener("click",()=>{
 navigator.clipboard.writeText(ul.innerText)
 alert("Code Copied!");
 window.location.href = "https://wa.me/";
+location.reload();
 
 })
